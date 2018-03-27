@@ -1,0 +1,26 @@
+@mixin boxStyle($boxHeight, $boxWidth, $boxBackground) {
+    border: 1px solid black;
+    height: $boxHeight;
+    width: $boxWidth;
+    background-color: $boxBackground;
+}
+
+@mixin pointBreak {
+    @media (max-width: 450px) {
+        width: 100%
+    }
+}
+
+@mixin topLefty($topVal, $leftVal) {
+    position: absolute;
+    top: $topVal;
+    left: $leftVal;
+}
+
+$colors: darkslateblue seagreen steelblue;
+@each $color in $colors {
+    .#{$color}-background {
+        background-color: #{$color};
+        height: 20%;
+    }
+}
