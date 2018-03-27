@@ -1,0 +1,30 @@
+#main-container {
+  width: 100%;
+  background-color: #607d8b; }
+
+.dev-section {
+  width: 70%;
+  margin: auto;
+  height: 200px; }
+
+#top-section {
+  background-color: #ff5722; }
+
+#middle-section {
+  background-color: #9e9e9e; }
+
+#lower-section {
+  background-color: #9e9e9e; }
+
+#main-footer {
+  width: 100%;
+  height: 100px;
+  background-color: #ffffff; }
+
+.extend-class {
+  border: 5px solid black; }
+
+p {
+  font-size: 2em; }
+
+/*# sourceMappingURL=main.css.map */

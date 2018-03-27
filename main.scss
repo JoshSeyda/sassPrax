@@ -1,0 +1,44 @@
+$brandBackground: #ff5722;
+$brandTextColor: #9e9e9e;
+$accentBackground: #607d8b;
+$accentDark: #000000;
+$accentLight: #ffffff;
+$num: 2;
+#main-container {
+    width: 100%;
+    background-color: $accentBackground;
+}
+
+.dev-section {
+    width: 70%;
+    margin: auto;
+    height: 200px;
+}
+
+#top-section {
+    background-color: $brandBackground;
+}
+
+#middle-section {
+    background-color: $brandTextColor;
+}
+
+#lower-section {
+    background-color: $brandTextColor;
+}
+
+#main-footer {
+    width: 100%;
+    height: 100px;
+    background-color: $accentLight;
+}
+
+.extend-class {
+    border: 5px solid black;
+}
+
+p {
+    @if $num==2 {
+        font-size: 2em;
+    }
+}
